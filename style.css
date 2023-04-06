@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+  .nav-container h1{
+    color: #fff;
+    margin-left: 5px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lobster', cursive;
+    margin-top: 20px;
+    margin-right: 60px;
+
+  }
+
+   div h2{
+    color: white;
+    margin-top: 420px;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lobster', cursive;
+    margin-left: 130px;
+    font-size: 300%;
+    
+
+  }
+  div span{
+    color: yellow;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Lobster', cursive;
+  }
+
+  /*start navbar*/
+.nav-container {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .nav-container .logo .logo-content {
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    margin-top: 10px;
+  }
+
+  .nav-container .nav-links .nav-list {
+    list-style: none;
+    margin-top: 30px;
+  }
+
+  .nav-container .nav-links .nav-list li {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 20px;
+  }
+
+  .nav-container .nav-links .nav-list li a {
+    text-decoration: none;
+    color:white;
+  }
+
+  .nav-container .nav-links .nav-list li a:hover {
+    color: rgb(17, 235, 235);
+    transition: 2s
+  }
+
+  /*Start header*/
+.header-container {
+    background-image:url(eid.jpg);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+    height:500px ;
+    
+
+
+  }
+  .content h1{
+    
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(250, 190, 111);
+    text-shadow: 1px 2px 1px black;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  .content p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100px;
+  }
+  .em h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(250, 190, 111);
+    text-shadow: 1px 3px 1px black;
+    margin-top: 20px;
+
+  }
+  .em img{
+    opacity: 1;
+    display: block;
+    width: 30%;
+    height: 200px;
+    transition: 0.5 ease;
+
+  }
+  .move{
+    justify-content: center;
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 200px; 
+    margin-top: 5px;
+    justify-content: right;
+    
+  }
+
+
+
+
+
+ 
+  
+ 
+  
+
+  
+  
+  
